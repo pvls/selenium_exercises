@@ -36,6 +36,6 @@ class MyTests:
         self.driver.close()
 
 if __name__ == "__main__":
-    runner = MyTests()git
-    # runner.test_access_github_through_google()
+    runner = MyTests()
+    runner.test_access_github_through_google()
     runner.test_find_breed()
